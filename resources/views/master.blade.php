@@ -13,7 +13,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
 
-    <title>Ecommerce</title>
+    <title>MartCart</title>
 </head>
 <body>
     {{View::make("header")}}
@@ -51,6 +51,33 @@
 }
 .search_box{
     width: 500px !important;
+}
+
+.cart_divider{
+    border-bottom: 1px solid rgb(100, 100, 100);
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.panel-footer{
+    position: absolute;
+    top: 100%;
+    left:40%;
+    margin-top: 2%;
+
+}
+
+.panel-footer2{
+    position: absolute;
+    top: 100%;
+    left:40%;
+
+    margin-top: 4%;
+}
+
+.PM_form{
+    margin: 20px;
 }
 
 </style>
